@@ -10,7 +10,8 @@
     "serve:ssr:caroo": "node dist/caroo/server/server.mjs",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
-    "prettier": "npx prettier --write ."
+    "prettier": "npx prettier --write .",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -48,6 +49,7 @@
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.3",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
