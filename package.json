@@ -10,6 +10,7 @@
     "serve:ssr:caroo": "node dist/caroo/server/server.mjs",
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
+    "lint:style": "npx stylelint '**/*.scss'",
     "prettier": "npx prettier --write .",
     "prepare": "husky install"
   },
@@ -59,6 +60,9 @@
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
     "prettier-eslint": "^16.1.2",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "typescript": "~5.2.2"
   }
 }
