@@ -9,3 +9,12 @@ img {
   object-fit: cover;
   width: 400px;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

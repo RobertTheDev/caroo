@@ -1,3 +1,18 @@
-.header {
-  background-color: red;
+.page-layout {
+  &-container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  &-main {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+  }
 }

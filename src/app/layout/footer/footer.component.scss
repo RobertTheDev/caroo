@@ -1,3 +1,19 @@
-.header {
-  background-color: red;
+.footer {
+  &-container {
+    align-items: center;
+    background: white;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    padding: 32px;
+    width: 100%;
+  }
+
+  &-links {
+    &-container {
+      align-items: center;
+      display: flex;
+      gap: 1.6rem;
+    }
+  }
 }
