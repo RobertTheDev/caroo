@@ -1,3 +1,30 @@
-<header>
-  <p>header</p>
+<header class="header-container">
+  <div class="header-logo-container">
+    <p>{{ companyName }}</p>
+  </div>
+  <div class="header-links-container">
+    <p *ngFor="let headerLink of headerLinks">{{ headerLink.name }}</p>
+  </div>
+  <div class="header-profile-container">
+    <fa-icon [icon]="faBars"></fa-icon>
+    <fa-icon [icon]="faBell"></fa-icon>
+    <fa-icon [icon]="faHeart"></fa-icon>
+    <fa-icon [icon]="faUser"></fa-icon>
+    <p>k</p>
+
+    <div class="header-avatar-container">
+      <img
+        class="header-avatar-image"
+        src="https://preview.redd.it/high-resolution-remakes-of-the-old-default-youtube-avatar-v0-bgwxf7bec4ob1.png?width=640&crop=smart&auto=webp&s=99d5fec405e0c7fc05f94c1e1754f7dc29ccadbd"
+        alt="avatar control" />
+    </div>
+
+    <div class="header-avatar-container">
+      <img
+        class="header-avatar-image"
+        src="https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="avatar control" />
+    </div>
+  </div>
 </header>
+<app-header-profile-menu></app-header-profile-menu>
