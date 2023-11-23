@@ -5,4 +5,23 @@ import { Component } from '@angular/core';
   templateUrl: './header-profile-menu.component.html',
   styleUrl: './header-profile-menu.component.scss',
 })
-export class HeaderProfileMenuComponent {}
+export class HeaderProfileMenuComponent {
+  headerProfileMenuLinks = [
+    {
+      href: '/profile',
+      name: 'Profile',
+    },
+    {
+      href: '/edit-profile',
+      name: 'Edit Profile',
+    },
+    {
+      href: '/my-car-listings',
+      name: 'My Car Listings',
+    },
+    {
+      href: '/account-settings',
+      name: 'Account Settings',
+    },
+  ];
+}
